@@ -1,6 +1,6 @@
 // === CONFIG: cambiá esta fecha por la que quieras (ISO 8601 local) ===
 // formato ejemplo: "2025-12-31T23:59:59"
-const DEFAULT_TARGET_ISO = "2025-12-31T23:59:59";
+const DEFAULT_TARGET_ISO = "2025-10-09T00:00:00";
 
 const $ = id => document.getElementById(id);
 const daysEl = $("days"), hoursEl = $("hours"), minutesEl = $("minutes"), secondsEl = $("seconds");
