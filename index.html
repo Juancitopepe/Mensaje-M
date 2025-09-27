@@ -7,38 +7,24 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main class="container">
-    <h1>Cuenta regresiva</h1>
-
-    <div class="countdown" id="countdown">
-      <div class="timepart">
-        <span id="days">0</span>
-        <small>Días</small>
-      </div>
-      <div class="timepart">
-        <span id="hours">00</span>
-        <small>Horas</small>
-      </div>
-      <div class="timepart">
-        <span id="minutes">00</span>
-        <small>Minutos</small>
-      </div>
-      <div class="timepart">
-        <span id="seconds">00</span>
-        <small>Segundos</small>
-      </div>
+  <div class="countdown">
+    <div class="timepart">
+      <span id="days">0</span>
+      <small>Días</small>
     </div>
-
-    <div class="controls">
-      <label for="target">Fecha objetivo (ISO):</label>
-      <input id="target" type="datetime-local" />
-      <button id="setBtn">Fijar fecha</button>
-      <button id="resetBtn">Restablecer fecha por defecto</button>
+    <div class="timepart">
+      <span id="hours">00</span>
+      <small>Horas</small>
     </div>
-
-    <p class="note">Fecha por defecto: <strong id="defaultDate"></strong></p>
-  </main>
-
+    <div class="timepart">
+      <span id="minutes">00</span>
+      <small>Minutos</small>
+    </div>
+    <div class="timepart">
+      <span id="seconds">00</span>
+      <small>Segundos</small>
+    </div>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
