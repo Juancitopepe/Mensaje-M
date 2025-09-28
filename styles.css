@@ -17,6 +17,8 @@ body {
   background: var(--bg);
   font-family: 'Digital-7 Mono', monospace;
   transition: background 0.6s ease, color 0.6s ease;
+  text-align: center;
+  color: #fff;
 }
 
 .countdown {
@@ -24,6 +26,7 @@ body {
   gap: 20px;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 20px 0;
 }
 
 .timepart {
@@ -47,4 +50,21 @@ body {
   margin-top: 6px;
   font-size: 14px;
   color: #aaa;
+}
+
+/* Mensajes arriba y abajo */
+.mensaje-arriba {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 18px;
+  color: #fff;
+}
+
+.mensaje-abajo {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 18px;
+  color: #fff;
 }
