@@ -54,17 +54,17 @@ body {
 
 /* Mensajes arriba y abajo */
 .mensaje-arriba {
-  font-family: sans-serif;
-  font-size: 18px;
+  font-family: 'Digital-7 Mono', monospace;
+  font-size: 40px;
   font-weight: 500;
-  margin-bottom: 18px;
+  margin-bottom: 44px;
   color: #fff;
 }
 
 .mensaje-abajo {
-  font-family: sans-serif;
-  font-size: 16px;
+  font-family: 'Digital-7 Mono', monospace;
+  font-size: 40px;
   font-weight: 400;
-  margin-top: 18px;
+  margin-top: 44px;
   color: #fff;
 }
