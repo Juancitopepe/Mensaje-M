@@ -55,7 +55,7 @@ body {
 /* Mensajes arriba y abajo */
 .mensaje-arriba {
   font-family: 'Digital-7 Mono', monospace;
-  font-size: 40px;
+  font-size: 28px;
   font-weight: 500;
   margin-bottom: 44px;
   color: #fff;
@@ -63,7 +63,7 @@ body {
 
 .mensaje-abajo {
   font-family: 'Digital-7 Mono', monospace;
-  font-size: 40px;
+  font-size: 28px;
   font-weight: 400;
   margin-top: 44px;
   color: #fff;
