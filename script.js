@@ -1,5 +1,5 @@
 // Fecha objetivo: 9 de octubre 2025 a las 00:00
-const target = new Date("2025-10-09T19:00:00");
+const target = new Date("2025-10-09T19:30:00");
 
 const $ = id => document.getElementById(id);
 const daysEl = $("days"), hoursEl = $("hours"), minutesEl = $("minutes"), secondsEl = $("seconds");
