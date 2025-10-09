@@ -12,7 +12,7 @@ function updateCountdown() {
     // Cambiar interfaz a blanca
     document.body.style.background = "#fff";
     document.body.style.color = "#000";
-    document.getElementById("countdown-container").innerHTML = "<h1>¡Llegó el día!</h1>";
+    document.getElementById("countdown-container").innerHTML = "<h1>Video en https://www.youtube.com/watch?v=uEZzY_-TRvo o en https://youtu.be/uEZzY_-TRvo</h1>";
     clearInterval(timerId);
     return;
   }
